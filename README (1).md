@@ -13,16 +13,15 @@ This project is a data pipeline that fetches stock market data from the Alpha Va
 
 # Project Structure
 
-stock-pipeline/
+stock-pipeline
 │
 ├── docker-compose.yml # Docker setup file
-├── dags/
+├── dags
 │ └── fetch_stocks_daily.py # Airflow DAG definition
-├── scripts/
+├── scripts
 │ └── fetch_data.py # Python script for data fetching
 ├── .env.example # Environment variable template
 ├── README.md # Project documentation
-└── requirements.txt # Python dependencies (optional)
 
 # Prerequisites
 
