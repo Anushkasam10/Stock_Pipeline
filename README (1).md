@@ -17,7 +17,7 @@ stock-pipeline
 │
 ├── docker-compose.yml # Docker setup file
 ├── dags
-│ └── fetch_stocks_daily.py # Airflow DAG definition
+│ └── fetch_stocks.py # Airflow DAG definition
 ├── scripts
 │ └── fetch_data.py # Python script for data fetching
 ├── .env.example # Environment variable template
